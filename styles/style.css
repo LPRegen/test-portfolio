@@ -60,6 +60,7 @@ nav {
 .section-title {
   display: flex;
   margin-bottom: 3rem;
+  align-items: flex-end;
 }
 
 .section-number {
