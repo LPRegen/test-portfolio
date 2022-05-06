@@ -175,3 +175,62 @@ nav {
 }
 
 /* ! Contact */
+
+.contact {
+  grid-column: 2/8;
+  margin-bottom: 5vw;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem auto 2rem auto;
+}
+
+a,
+a > img {
+  background-color: var(--primaryColor);
+}
+
+/* ? Form */
+
+.form-container,
+.social-icons,
+#form-contact {
+  background-color: var(--primaryColor);
+}
+
+.form-container {
+  padding-top: 2vw;
+  margin-top: 10vw;
+}
+
+#form-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
+  margin: 0 5vw;
+}
+
+#message {
+  height: 20vw;
+}
+
+input {
+  padding: 2vw;
+  width: 100%;
+  background-color: var(--projectCardBG);
+  border: #f0f1f2;
+}
+
+#send-email {
+  all: unset;
+  width: 50%;
+  margin-bottom: 2vw;
+  color: white;
+  background-color: #111620;
+  text-align: center;
+  text-decoration: underline;
+  padding: 3vw 0;
+}
