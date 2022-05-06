@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css".css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <title>Manuel Escribano</title>
+  </head>
+  <body>
+    <nav>
+      <span class="logo">Me</span>
+      <span class="material-symbols-outlined" id="menu"> menu </span>
+    </nav>
+    <div class="hero-text">
+      <div class="hero1">
+        <p class="name">Manuel</p>
+        <p class="name">Escribano</p>
+      </div>
+      <div class="hero2">
+        <p class="position">Frontend</p>
+        <p class="position">Developer</p>
+      </div>
+    </div>
+    <section class="about-me">
+      <div class="section-title">
+        <div class="section-number">01.</div>
+        <div class="section-name">About me</div>
+        <!-- ! 3 rem de padding hacia abajo -->
+      </div>
+      <div class="section-info">
+        <p>
+          I'm a selftought Frontend developer who lives in Argentina and enjoys
+          new challenges! Because I think that in every challenge there is an
+          opportunity to improve myself. To continue learning, I use different
+          sources like books, articles, videos or even communities. I enjoy to
+          keep learning and also I have plans to become a MERN fullstack
+          developer.
+        </p>
+      </div>
+      <div class="technologies">
+        <div class="technology-card">
+          <img src="./icons/js-48.svg" alt="JavaScript" />
+          <p>JavaScript</p>
+        </div>
+        <div class="technology-card">
+          <img src="./icons/html-48.svg" alt="Html" />
+          <p>HTML</p>
+        </div>
+        <div class="technology-card">
+          <img src="./icons/css-48.svg" alt="Css" />
+          <p>CSS3</p>
+        </div>
+        <div class="technology-card">
+          <img src="./icons/sass-48.svg" alt="Sass" />
+          <p>SASS</p>
+        </div>
+      </div>
+      <div class="technologies">
+        <div class="technology-card">
+          <img src="./icons/webpack-48.svg" alt="Webpack" />
+          <p>Webpack</p>
+        </div>
+        <div class="technology-card">
+          <img src="./icons/npm-48.svg" alt="Node package manager" />
+          <p>NPM</p>
+        </div>
+        <div class="technology-card">
+          <img src="./icons/git-48.svg" alt="Git" />
+          <p>Git</p>
+        </div>
+        <div class="technology-card">
+          <img src="./icons/figma-48.svg" alt="Figma" />
+          <p>Figma</p>
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="section-title">
+        <div class="section-number">02.</div>
+        <div class="section-name">Projects</div>
+        <!-- ! 3 rem de padding hacia abajo -->
+      </div>
+      <div class="project-list">
+        <div class="listed-project">
+          <div class="project-title">Todo list</div>
+          <div class="project-info">
+            <p class="project-description">
+              App to keep track of whatever you want, you will be able to
+              categorize tasks by projects and set due dates for them, so you
+              will never will miss a due date!
+            </p>
+            <small class="developed-with">
+              Developed with JavaScript, Webpack and date-fns library.
+            </small>
+            <div class="cta-project">
+              <button
+                class="live-project"
+                onclick="location.href = 'https://lpregen.github.io/TodoList/'"
+              >
+                Live
+                <span class="material-symbols-outlined"> link </span>
+              </button>
+              <button
+                class="github-project"
+                onclick="location.href = 'https://github.com/LPRegen/TodoList'"
+              >
+                GitHub
+                <img src="./icons/github-64.svg" alt="Link to repository" />
+              </button>
+            </div>
+          </div>
+          <div class="project-image">
+            <img
+              src="./images/Todo list app-min.jpg"
+              alt="Todo list application"
+            />
+          </div>
+        </div>
+        <div class="listed-project">
+          <div class="project-title">Hello Coffee!</div>
+          <div class="project-info">
+            <p class="project-description">
+              This is a SPA of a fake coffee shop, created with npm, JavaScript
+              and Webpack. The objective of this project was to use for the
+              first time a module bundler like Webpack.
+            </p>
+            <small class="developed-with">
+              Developed with JavaScript, Webpack and npm
+            </small>
+            <div class="cta-project">
+              <button
+                class="live-project"
+                onclick="location.href = 'https://lpregen.github.io/restaurant/'"
+              >
+                Live
+                <span class="material-symbols-outlined"> link </span>
+              </button>
+              <button
+                class="github-project"
+                onclick="location.href = 'https://github.com/LPRegen/restaurant'"
+              >
+                GitHub
+                <img src="./icons/github-64.svg" alt="Link to repository" />
+              </button>
+            </div>
+          </div>
+          <div class="project-image">
+            <img
+              src="./images/Todo list app-min.jpg"
+              alt="Todo list application"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
