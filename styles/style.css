@@ -165,6 +165,7 @@ nav {
   align-items: center;
   gap: 0.5rem;
   padding: 1rem;
+  cursor: pointer;
 }
 
 button > p {
@@ -243,4 +244,5 @@ input {
   text-align: center;
   text-decoration: underline;
   padding: 3vw 0;
+  cursor: pointer;
 }
