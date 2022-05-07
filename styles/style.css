@@ -61,6 +61,7 @@ nav {
   display: flex;
   margin-bottom: 3rem;
   align-items: flex-end;
+  gap: 2px;
 }
 
 .section-number {
@@ -69,6 +70,7 @@ nav {
 
 .section-name {
   font-size: 1.2rem;
+  margin-bottom: -0.15vw;
 }
 
 .section-info {
@@ -160,6 +162,12 @@ nav {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  padding: 1rem;
+}
+
+button > p {
+  background-color: var(--projectCardBG);
+  text-decoration: underline;
 }
 
 .project-image {
