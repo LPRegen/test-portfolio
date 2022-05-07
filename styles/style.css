@@ -115,7 +115,7 @@ nav {
 }
 
 .project-title {
-  grid-column: 7/11;
+  grid-column: 5/11;
   display: flex;
   justify-content: center;
   background-color: var(--primaryColor);
@@ -169,8 +169,8 @@ nav {
   all: unset;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 1rem;
+  gap: 2vw;
+  padding: 1vw 2vw;
   cursor: pointer;
 }
 
