@@ -109,12 +109,12 @@ nav {
 }
 
 .project-title {
-  grid-column: 5/11;
+  grid-column: 7/11;
   display: flex;
   justify-content: center;
-  background-color: #111620;
-  color: var(--primaryColor);
-  padding: 0.2rem 0;
+  background-color: var(--primaryColor);
+  color: #111620;
+  padding: 0.5rem 0;
 }
 
 .project-info {
